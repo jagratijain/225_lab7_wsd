@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch Products</title>
+  </head>
+  <body>
+    <style>
+      body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #527977; /* Set your desired background color */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #17050c;
+    color: #b5b5b5;
+    border: none;
+    cursor: pointer;
+}
+
+#bookList {
+    margin-top: 20px;
+}
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
+    </style>
+    <button id="fetchProducts">Fetch Products</button>
+
+    <table style="border: 1px solid; margin: 10px" id="productList">
+      <tr style="border: 1px solid; margin: 10px">
+        <th>Name</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Image</th>
+      </tr>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
